@@ -1,0 +1,17 @@
+.env
+
+./venv
+
+app/__pycache__/*
+
+file_uploads/__pycache__/*
+
+file_uploads/__pycache__/*
+
+file_uploads/migrations/__pycache__/*
+
+file_uploads/services/__pycache__/*
+
+db.sqlite3
+
+media/*
