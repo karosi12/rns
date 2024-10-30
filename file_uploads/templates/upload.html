@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="uft-8">
+        <title>Django File Upload</title>
+    </head>
+    <body>
+        <form action="{% url 'files' %}" method="post" enctype="multipart/form-data">
+            {% csrf_token %}
+            <p>
+                {{ form.file }}
+            </p>
+            <p><input type="submit" value="Upload" /> </p>
+        </form >
+    </body>
+</html>
