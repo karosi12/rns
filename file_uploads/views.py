@@ -1,11 +1,8 @@
 from django.http import JsonResponse
-from django.http import HttpResponse
 from django.shortcuts import render
 from .forms import UploadFileForm
-from django.views import View
 from .services.encryption_service import EncryptionService
 from .services.storage_service import StorageService
-from django.views.decorators.csrf import csrf_exempt
 
 import logging
 
